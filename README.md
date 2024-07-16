@@ -1,7 +1,27 @@
 # Introducción
-Se presenta un análsisis de datos de una empresa de telecomunicaciones que tiene como objetivo buscar oportunidades de mejora en su servicio de internet, en este repositorio existen 4 rubros que a continuación se van a explicar.
+Se presenta un análsisis de datos de una empresa de telecomunicaciones que tiene como objetivo buscar oportunidades de mejora en su servicio de internet, en este repositorio existen 4 rubros que a continuación se van a explicar. 
+
+El proceso para realizar este proyecto fue el siguiente:
+
+-Seleción de archivos para el análisis.
+
+-Limpieza y normalización de los mismos.
+
+-Deetección de outliers.
+
+-Realización de gr+aficos con su análisis respectivo.
+
+-Identifiación de insights.
+
+-Conclusiones del análisis, recomendaciones para las oportunidades de mejora.
+
+-Levantamineto de base datos en MySQL
+
+-Elaboración de informe en Power BI
+
+
 ### -CSV 
-Carpeta que contiene los archvivos que se trabajaron, estos archivos ya están limpios y normalizandos, estos dos procesos se hicieron en python con la librería pandas.
+Carpeta que contiene los archvivos que se trabajaron, estos archivos ya están limpios y normalizandos, estos dos procesos se hicieron en python con la librería Pandas.
 ### -Dashboard_PI_2.pbix
 Este archivo es el informe realizado en Power BI, en donde se encuentra el dashboard interactivo que muestra los ingresos a través de los años, comparativa a través del tiempo de accesos a internet por hogar y por persona, tecnologías usadas y velocidades de internet, se visualizan 3 métricas que son: Ingresos totales, Promedio de velocidad en Mbps, Suma de acesos a internet; todo esto mencionado es interactivo mediante el botón "Provincia" en donde se puede ver toda esta información dependiendo si se quiere una vista general o por provincia. Aunado a esto, se encuentra la implementación de 4 KPI´s con sus respectivas gráficas, cabe mencionar que, estos KPI´s al ser implementados por primera vez se encuntran por debajo del objetivo, estos KPI´s son: 
 
@@ -16,7 +36,7 @@ Este archivo es el informe realizado en Power BI, en donde se encuentra el dashb
 ### -DataBase.sql
 Contiene un script de SQL realizado en MySQL en donde se levantó una base datos con los CSV mencionados, se hizo una conexión mediante primary keys con las columnas de provincias.
 ### EDA_PI2.ipynb
-Este es el archivo principal, es de tipo Notebook en donde se hizo limpieza, normalización, detección de outliers, análisis con gráficos, detección de insights y conlsuiones de todo el Análisis Exploratorio de Datos (EDA). Todas las gráficas de todos los archivos trabajados se encuentran en este archivo, además de posibles recomendaciones y medidad a tomar para poder aprovechar las oportunidades de mejora.
+Este es el archivo principal, es de tipo Notebook, realizado en VIsualStudioCode con Python, en donde se hizo limpieza, normalización, detección de outliers, análisis con gráficos, detección de insights y conlsuiones de todo el Análisis Exploratorio de Datos (EDA). Todas las gráficas de todos los archivos trabajados se encuentran en este archivo, además de posibles recomendaciones y medidad a tomar para poder aprovechar las oportunidades de mejora.
 
 # Reporte de análsis
 Mediante una gráfica de líneas, se presentan los ingresos del año 2014 a 2023, donde se observa un aumento exponencial, se incrementaron los ingresos en 3700%, lo que es directamente proporcional al aumento en los acceso a internet que aumentaron en 90%, si bien es cierto que que las diferencias son enormes, mucho tiene que ver el precio del acceso al mismo.
