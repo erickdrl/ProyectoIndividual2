@@ -9,7 +9,7 @@ El proceso para realizar este proyecto fue el siguiente:
 
 -Deetección de outliers.
 
--Realización de gr+aficos con su análisis respectivo.
+-Realización de gráficos con su análisis respectivo.
 
 -Identifiación de insights.
 
