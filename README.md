@@ -1,4 +1,4 @@
-##Introducción
+# Introducción
 
 Se presenta un análsisis de datos de una empresa de telecomunicaciones que tiene como objetivo buscar oportunidades de mejora en su servicio de internet, en este repositorio existen 4 rubros que a continuación se van a explicar.
 -CSV: Carpeta que contiene los archvivos que se trabajaron, estos archivos ya están limpios y normalizandos, estos dos procesos se hicieron en python con la librería pandas.
