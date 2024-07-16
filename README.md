@@ -12,3 +12,6 @@ Este archivo es el informe realizado en Power BI, en donde se encuentra el dashb
 Contiene un script de SQL realizado en MySQL en donde se levantó una base datos con los CSV mencionados, se hizo una conexión mediante primary keys con las columnas de provincias.
 ### EDA_PI2.ipynb
 Este es el archivo principal, es de tipo Notebook en donde se hizo limpieza, normalización, detección de outliers, análisis con gráficos, detección de insights y conlsuiones de todo el Análisis Exploratorio de Datos (EDA)
+
+# Reporte de análsis
+
