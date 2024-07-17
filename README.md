@@ -22,7 +22,7 @@ El proceso para realizar este proyecto fue el siguiente:
 
 ### -CSV 
 Carpeta que contiene los archvivos que se trabajaron, estos archivos ya están limpios y normalizandos, estos dos procesos se hicieron en python con la librería Pandas.
-### -Dashboard_PI_2.pbix
+### -Informe_PI_2.pbix
 Este archivo es el informe realizado en Power BI, en donde se encuentra el dashboard interactivo que muestra los ingresos a través de los años, comparativa a través del tiempo de accesos a internet por hogar y por persona, tecnologías usadas y velocidades de internet, se visualizan 3 métricas que son: Ingresos totales, Promedio de velocidad en Mbps, Suma de acesos a internet; todo esto mencionado es interactivo mediante el botón "Provincia" en donde se puede ver toda esta información dependiendo si se quiere una vista general o por provincia. Aunado a esto, se encuentra la implementación de 4 KPI´s con sus respectivas gráficas, cabe mencionar que, estos KPI´s al ser implementados por primera vez se encuntran por debajo del objetivo, estos KPI´s son: 
 
 1.- Aumentar en 2% la cantidad de hogares con acceso a internet.
